@@ -26,10 +26,10 @@
     <script>
         $(document).ready(function () {
             
-            let person = prompt("Please enter your name", "eling arliyan");
-            let text ='Hii';
+            let person = prompt("Please enter your name", "");
+            let text ='Haay';
             let msg = " :)";
-            let msg2 = "i hope you enjoy your day :)";
+            let msg2 = "Aku harap hari ini menyenangkan :)";
             let hapus = 28;
            let msg3 ="";
             let hapus3 = 0;
@@ -37,35 +37,35 @@
             var today = new Date();
             var kk = today.getHours();
             if (kk < 12){
-                text = "Good Morning "+person;
-                msg ="jangan lupa tersenyum:)"
-                hapus = 23;
-                msg2 ="Karna kamu spesial"
-                hapus2=18;
+                text = "Selamat Pagi "+person;
+                msg ="Sapa duniamu:)"
+                hapus = 14;
+                msg2 ="Dan jangan lupa tersenyum"
+                hapus2=25;
 
             } 
             if (kk >= 12){
-                text = "Good Afternoon "+person;
-                msg = "tetap semangat"
-                hapus = 14;
-                msg2 ="because you can"
-                hapus2 = 15;
+                text = "Selamat Siang "+person;
+                msg = "Gimana? Masih semangat?"
+                hapus = 23;
+                msg2 ="Haha, Enjoyed"
+                hapus2 = 13;
             }
              if (kk >= 17){
-                text = "Good Evening "+person;
-                msg ="Bagaimana hari mu?"
-                hapus = 18;
-                msg2 = "semangat, kamu kuat";
-                hapus2 = 19;
+                text = "Selamat Menjelang Malam "+person;
+                msg ="Hari yang melelahkan bukan?"
+                hapus = 27;
+                msg2 = "Tapi tidak buruk juga, senyuuum :)";
+                hapus2 = 34;
                 
             }
 
             if (kk >= 22){
-                text = "Good Night "+person;
-                msg ="hari yang melelahkan:)"
-                hapus = 22;
-                msg2 = "waktunya istirahat"
-                hapus2 = 18;
+                text = "Selamat Malam dan Selamat Tidur "+person;
+                msg ="Gimana-gimana? Harinya maksudnya?"
+                hapus = 33;
+                msg2 = "Waktunya istirahat :) Love You"
+                hapus2 = 30;
                 
 
             }
